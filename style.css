@@ -117,6 +117,7 @@ p {
     color:#fff;
     background-color:#333;
     padding:13px 20px;
+    border: none;
 }
 
 .btn:hover {
@@ -169,4 +170,77 @@ p {
 
 #info .info-content p {
     padding-bottom: 30px;
+}
+
+/* feature section */
+
+.box {
+    float:left;
+    width:33.3%;
+    padding:50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight:700;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+#main-footer {
+    background-color:#444;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+}
+
+.clr{
+    clear:both;
+}
+
+#contact-form h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight:700;
+}
+
+#contact-form span{
+    color:#f7c08a;
+}
+
+#contact-form p {
+    font-size:20px;
+    font-weight:700;
+}
+
+/* contact form */
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,textarea {
+    width:100%;
+    padding:10px;
+    border:1px solid rgb(175, 159, 159);
+    border-radius: 5px;
+}
+
+#contact-form input:focus,textarea:focus {
+   outline:none;    
+   border-color: #f7c08a;
+}
+
+#contact-form .contact-btn {
+    margin-bottom: 20px;
 }
