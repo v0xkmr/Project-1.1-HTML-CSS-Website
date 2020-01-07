@@ -1,0 +1,172 @@
+/* default Styling */
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.7em;
+}
+
+a {
+    color:#333;
+    text-decoration:none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+
+.container {
+    max-width:1100px;
+    /* if we minimize the window size then the it will shrink accordingly */
+    padding: 0 20px;
+    margin: auto;
+}
+
+.text-primary {
+    color:#f7c08a;
+}
+
+.lead {
+    font-size:20px;
+    font-weight: 700;
+}
+/* Main Styling Start Here */
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color:#333;
+    overflow: auto; 
+    /* if you remove overflow then the contect of navbar will not be visible */
+}
+
+#navbar a {
+    color:#fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    float:right;
+}
+
+#navbar ul li {
+    float:left;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding:20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color:#444;
+    color:#f7c08a;
+}
+
+/* Showcase Area */
+
+#showcase {
+    background-image:url(./assets/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:600px;
+}
+
+#showcase #showcase-content {
+    color:#fff;
+    text-align: center ;
+    padding-top: 170px;
+}
+
+#showcase #showcase-content h1 {
+    font-size:60px;
+    font-weight:700;
+    line-height:1.2em;
+}
+
+#showcase #showcase-content p {
+    padding-bottom: 20px;
+    line-height:1.7em;
+}
+
+.btn {
+    display:inline-block;
+    font-size:18px;
+    font-weight:700;
+    color:#fff;
+    background-color:#333;
+    padding:13px 20px;
+}
+
+.btn:hover {
+    background-color:#f7c08a;
+    color:#333;
+}
+
+.btn-light {
+    background-color:#f4f4f4;
+    color:#333;
+}
+
+/* Info Area */
+
+#info {
+    height: 400px;
+}
+
+#info .info-img {
+    float:left;
+    background-image: url(./assets/sideimage.jpg);
+    width: 50%;
+    height:100%;
+}
+
+#info .info-content {
+    float:right;
+    width:50%;
+    height:100%;
+    text-align:center;
+    padding:50px 30px;
+    overflow: hidden;
+    /* if we squize the screen then the button will be hidden */
+}
+
+.bg-dark {
+    background-color:#333;
+    color:#fff;
+}
+
+.bg-light {
+    background-color:#f4f4f4;
+    color:#333;
+}
+
+.bg-primary {
+    background-color:#333;
+    color:#f7c08a;
+}
+
+#info .info-content p {
+    padding-bottom: 30px;
+}
